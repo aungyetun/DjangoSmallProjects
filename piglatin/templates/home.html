@@ -1,0 +1,11 @@
+<h1>Pig Latin Translator! </h1>
+
+<form action="{% url 'translate' %}" >
+  <input type="text" name="originaltext"/><br/>
+  <input type="submit" value="Translate"/>
+</form>
+<br/>
+<br/>
+<form action="{% url 'about' %}">
+  <input type="submit" value="About this website"/>
+</form>
